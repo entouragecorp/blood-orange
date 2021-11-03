@@ -9,6 +9,7 @@ import Datacapture from './Pages/Datacapture';
 import Instructions from './Pages/Instructions';
 import RoombaPrize from './Pages/RoombaPrize';
 import Redirecttoquiz from './Pages/Redirecttoquiz';
+import ThankYou from './Pages/ThankYou';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path='/Quiz' exact strict component={Quiz}/>
             <Route path='/data-capture' exact strict component={Datacapture}/>
             <Route path='/instructions' exact strict component={Instructions} />
+            <Route path='/ThanksForEntry' exact strict component={ThankYou} />
         </Switch>
     </Router>                          
   );

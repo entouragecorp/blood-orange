@@ -260,7 +260,7 @@ const [settingProvince, setProvinceYear] = useState()
         
         </div> */}
         <div id='next_btn_landing'>
-            <Next text='NEXT' verifyAge={settingYear} color='#E14925' link='/roomba-prize'/>
+            <Next text='NEXT' path={'/'} verifyAge={settingYear} day={settingDay} month={settingMonth} province={settingProvince} color='#E14925' link='/roomba-prize'/>
         </div>
        </div>
       </div>
