@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/saturday/static/css/main.75873a45.chunk.css",
+    "main.js": "/saturday/static/js/main.adf7734c.chunk.js",
+    "main.js.map": "/saturday/static/js/main.adf7734c.chunk.js.map",
+    "runtime-main.js": "/saturday/static/js/runtime-main.4fff5ce5.js",
+    "runtime-main.js.map": "/saturday/static/js/runtime-main.4fff5ce5.js.map",
+    "static/js/2.e60e23c3.chunk.js": "/saturday/static/js/2.e60e23c3.chunk.js",
+    "static/js/2.e60e23c3.chunk.js.map": "/saturday/static/js/2.e60e23c3.chunk.js.map",
+    "static/js/3.5b560909.chunk.js": "/saturday/static/js/3.5b560909.chunk.js",
+    "static/js/3.5b560909.chunk.js.map": "/saturday/static/js/3.5b560909.chunk.js.map",
+    "index.html": "/saturday/index.html",
+    "static/css/main.75873a45.chunk.css.map": "/saturday/static/css/main.75873a45.chunk.css.map",
+    "static/js/2.e60e23c3.chunk.js.LICENSE.txt": "/saturday/static/js/2.e60e23c3.chunk.js.LICENSE.txt",
+    "static/media/Saturday.1909c810.mp4": "/saturday/static/media/Saturday.1909c810.mp4",
+    "static/media/Pages.scss": "/saturday/static/media/prizingBg.87f69a67.png",
+    "static/media/green-quiz-bg.png": "/saturday/static/media/green-quiz-bg.a31143c5.png",
+    "static/media/guitar.53634a63.svg": "/saturday/static/media/guitar.53634a63.svg",
+    "static/media/orange-vape-bg.png": "/saturday/static/media/orange-vape-bg.86dbc733.png",
+    "static/media/orig-roomba.e30ced5a.png": "/saturday/static/media/orig-roomba.e30ced5a.png",
+    "static/media/roomba-bg.d094d11a.png": "/saturday/static/media/roomba-bg.d094d11a.png",
+    "static/media/sour.cbda50ee.svg": "/saturday/static/media/sour.cbda50ee.svg",
+    "static/media/vape-pen.29429644.svg": "/saturday/static/media/vape-pen.29429644.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fff5ce5.js",
+    "static/js/2.e60e23c3.chunk.js",
+    "static/css/main.75873a45.chunk.css",
+    "static/js/main.adf7734c.chunk.js"
+  ]
+}

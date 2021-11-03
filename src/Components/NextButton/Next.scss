@@ -1,0 +1,23 @@
+.next_btn{
+    height: auto;
+    width: 80vw;
+    color: white;
+    font-weight: 100;
+    font-size: 1.7em;
+    margin: 0px;
+    position: absolute;
+    // padding: 3px 0px 3px 0;
+    padding: 10px;
+    box-shadow: -1px 10px 9px rgba(0, 0, 0, 0.384);
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    z-index: 20;
+    font-family: 'Fjalla One', sans-serif;
+    }
+#next_image{
+    width: 13px;
+}
+.orange-btn{
+    background-color: #E14925 !important;
+}
