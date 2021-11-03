@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/blood-orange/static/css/main.1687e012.chunk.css",
-    "main.js": "/blood-orange/static/js/main.2e4e3873.chunk.js",
-    "main.js.map": "/blood-orange/static/js/main.2e4e3873.chunk.js.map",
-    "runtime-main.js": "/blood-orange/static/js/runtime-main.1527e8e7.js",
-    "runtime-main.js.map": "/blood-orange/static/js/runtime-main.1527e8e7.js.map",
-    "static/js/2.527c001f.chunk.js": "/blood-orange/static/js/2.527c001f.chunk.js",
-    "static/js/2.527c001f.chunk.js.map": "/blood-orange/static/js/2.527c001f.chunk.js.map",
-    "static/js/3.03db8ad8.chunk.js": "/blood-orange/static/js/3.03db8ad8.chunk.js",
-    "static/js/3.03db8ad8.chunk.js.map": "/blood-orange/static/js/3.03db8ad8.chunk.js.map",
+    "main.js": "/blood-orange/static/js/main.aa4a4f9c.chunk.js",
+    "main.js.map": "/blood-orange/static/js/main.aa4a4f9c.chunk.js.map",
+    "runtime-main.js": "/blood-orange/static/js/runtime-main.c4576b8a.js",
+    "runtime-main.js.map": "/blood-orange/static/js/runtime-main.c4576b8a.js.map",
+    "static/js/2.993bed80.chunk.js": "/blood-orange/static/js/2.993bed80.chunk.js",
+    "static/js/2.993bed80.chunk.js.map": "/blood-orange/static/js/2.993bed80.chunk.js.map",
+    "static/js/3.2070cdd6.chunk.js": "/blood-orange/static/js/3.2070cdd6.chunk.js",
+    "static/js/3.2070cdd6.chunk.js.map": "/blood-orange/static/js/3.2070cdd6.chunk.js.map",
     "index.html": "/blood-orange/index.html",
     "static/css/main.1687e012.chunk.css.map": "/blood-orange/static/css/main.1687e012.chunk.css.map",
-    "static/js/2.527c001f.chunk.js.LICENSE.txt": "/blood-orange/static/js/2.527c001f.chunk.js.LICENSE.txt",
+    "static/js/2.993bed80.chunk.js.LICENSE.txt": "/blood-orange/static/js/2.993bed80.chunk.js.LICENSE.txt",
     "static/media/Saturday.1909c810.mp4": "/blood-orange/static/media/Saturday.1909c810.mp4",
     "static/media/Pages.scss": "/blood-orange/static/media/prizingBg.87f69a67.png",
     "static/media/green-quiz-bg.png": "/blood-orange/static/media/green-quiz-bg.a31143c5.png",
@@ -23,9 +23,9 @@
     "static/media/vape-pen.29429644.svg": "/blood-orange/static/media/vape-pen.29429644.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1527e8e7.js",
-    "static/js/2.527c001f.chunk.js",
+    "static/js/runtime-main.c4576b8a.js",
+    "static/js/2.993bed80.chunk.js",
     "static/css/main.1687e012.chunk.css",
-    "static/js/main.2e4e3873.chunk.js"
+    "static/js/main.aa4a4f9c.chunk.js"
   ]
 }
