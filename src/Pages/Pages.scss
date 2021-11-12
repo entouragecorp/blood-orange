@@ -21,7 +21,7 @@ $orange: #D9442A;
     flex-direction: column;
     align-items: center;
     margin-top: 22%;
-    #dob_capture{ 
+    #dob_capture{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -43,14 +43,14 @@ $orange: #D9442A;
             justify-content: center;
             margin-top: 8vh;
             font-family: 'Fjalla One', sans-serif;
-        .bb-container{ 
+        .bb-container{
             width: 40vw;
             height: fit-content;
             display: flex;
             display: -webkit-flex;
             justify-content: flex-end;
             padding-right: 2px;
-            .blackBox{ 
+            .blackBox{
                 margin-top: 1px;
                 margin-right: 1px;
                 // margin: 1px 1px 0 0;
@@ -69,25 +69,46 @@ $orange: #D9442A;
                 .down{
                     position: absolute;
                 }
-                &:hover{ 
-                    
+                &:hover{
+
                     cursor: pointer;
                 }
             }
-            
+
         }
 
-        select{ 
-            padding-left: 5px;
-            position: absolute;
-            margin-bottom: 20px;
-            width: 40vw;
-            height: 40px;
-            font-size: 23px;
-            background-color: #D9442A;
-            color: white;
-            border: none;
-            font-family: 'Fjalla One', sans-serif;
+        .input-label {
+          padding: 6px 0 5px 5px;
+          position: absolute;
+          margin-bottom: 20px;
+          width: 40vw;
+          font-size: 23px;
+          background-color: #D9442A;
+          color: white;
+          border: none;
+          font-family: 'Fjalla One', sans-serif;
+        }
+
+        select{
+          padding-left: 5px;
+          position: absolute;
+          margin-bottom: 20px;
+          width: 40vw;
+          height: 40px;
+          font-size: 23px;
+          background-color: #D9442A;
+          color: white;
+          border: none;
+          font-family: 'Fjalla One', sans-serif;
+          -moz-user-select: -moz-none;
+          -khtml-user-select: none;
+          -webkit-user-select: none;
+          /*
+            Introduced in IE 10.
+            See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+          */
+          -ms-user-select: none;
+          user-select: none;
         }
     }
     }
@@ -105,7 +126,7 @@ $orange: #D9442A;
     overflow-y: scroll;
     background: url('./../Assets/data-capture-bg.png') no-repeat center center;
     background-size: cover;
-    
+
     .titleContainer{
         width: auto;
         position: absolute;
@@ -117,7 +138,7 @@ $orange: #D9442A;
     color: white;
     margin-bottom: 5px;
     font-weight: 500;
-    
+
 }
 .Title2{
     margin-top: -2vh;
@@ -131,7 +152,7 @@ $orange: #D9442A;
     justify-content: flex-end;
     padding-top: 12%;
 }
-.columns_holder{ 
+.columns_holder{
     width: 100%;
     height: auto;
     display: flex;
@@ -163,7 +184,7 @@ $orange: #D9442A;
 }
 .margin_zero{
     margin: 0px;
-   
+
 }
 }
 
@@ -185,7 +206,7 @@ width: 100%;
     align-items: center;
     box-shadow: 0px 5px 6px rgba(61, 61, 61, 0.664);
     .ans{
-        font-size: 1em; 
+        font-size: 1em;
         width: 90%;
 
         // padding: 0% 0px 0% 0px;
@@ -230,13 +251,13 @@ width: 100%;
         margin: 0px 0px 5% 0px;
     }
 }
-.form_collection{ 
+.form_collection{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     // margin-top: 20vh;
-input{ 
+input{
     width: 75%;
     height: 20px;
 //    border-radius: 0.6em;
@@ -299,7 +320,7 @@ label{
 }
 }
 
-.noOverflow{ 
+.noOverflow{
     overflow-y: hidden;
 }
 #instruction_context{
@@ -312,7 +333,7 @@ label{
     margin: 30vh 5vw 0 0;
 
 }
-#contact_header_comment_holder{ 
+#contact_header_comment_holder{
     color: white;
     text-align: center;
     width: 70vw;
@@ -322,7 +343,7 @@ label{
         font-size: 25px;
     }
 
-    h4{ 
+    h4{
         font-weight: 100;
     }
 
@@ -351,7 +372,7 @@ label{
                 font-size: 13px;
             }
         }
-        .formInput{ 
+        .formInput{
             margin-top: 0;
             border: 2px solid $lightgreen;
             height: 10px;
@@ -426,7 +447,7 @@ label{
        }
     }
 
-    .title{ 
+    .title{
         position: fixed;
         z-index: 999;
         text-align: center;
@@ -461,7 +482,7 @@ justify-content: center;
 .roomba-bg{
     position: absolute;
     z-index: 0;
-    height: 100vh;  
+    height: 100vh;
     width: 100vw;
 }
 .roomba_header_text{
@@ -507,23 +528,23 @@ justify-content: center;
     display: none;
 }
 
-.points_container{ 
-    width: 100vw; 
+.points_container{
+    width: 100vw;
     height: 100vh;
     .points_page{
         position: absolute;
-        top: 0; 
+        top: 0;
         left: 0;
-        width: 100vw; 
+        width: 100vw;
         height: 100vh;
     }
 }
 
 
 .messaging_for_points{
-    width: 100%; 
+    width: 100%;
     height: fit-content;
-    display: flex; 
+    display: flex;
     justify-content: center;
     // padding: 0 10% 0 10%;
     .msg_text{
@@ -531,7 +552,7 @@ justify-content: center;
         display: flex;
         font-weight: 100;
         font-size: 35px;
-        width: 90vw; 
+        width: 90vw;
         justify-content: center;
         color: white;
         position: absolute;
@@ -540,7 +561,7 @@ justify-content: center;
 
     }
 }
-.short{ 
+.short{
     width: 60vw !important;
 }
 
@@ -552,7 +573,7 @@ justify-content: center;
     margin-top: 10px;
 }
 
-// @media (max-height: 740px){ 
+// @media (max-height: 740px){
 //     .next_btn_blood_orange{
 //         width: 100vw;
 //         height: auto;
@@ -579,7 +600,7 @@ justify-content: center;
        }
     }
 
-    .title{ 
+    .title{
         position: fixed;
         z-index: 999;
         text-align: center;
@@ -622,7 +643,7 @@ justify-content: center;
     margin-top: 13px;
 }
 #link_{
-  font-weight: bolder;  
+  font-weight: bolder;
   color: white;
   font-size: 10px;
   text-decoration: none;
@@ -641,7 +662,7 @@ justify-content: center;
 // .intro_txt{
 //     color: #4B503C;
 //     text-shadow:
-//     -1px -1px 0 rgb(255, 255, 255),  
+//     -1px -1px 0 rgb(255, 255, 255),
 //      1px -1px 0 rgb(255, 255, 255),
 //      -1px 1px 0 rgb(255, 255, 255),
 //       1px 1px 0 rgb(255, 255, 255);
