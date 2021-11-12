@@ -100,17 +100,8 @@ $orange: #D9442A;
           color: white;
           border: none;
           font-family: 'Fjalla One', sans-serif;
-          -moz-user-select: -moz-none;
-          -khtml-user-select: none;
-          -webkit-user-select: none;
-          /*
-            Introduced in IE 10.
-            See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
-          */
-          -ms-user-select: none;
-          user-select: none;
         }
-    }
+      }
     }
 }
 
