@@ -83,8 +83,6 @@ const Quiz = (props) => {
     const history = useHistory()
     var set_forth_div = ['false']
 
-
-
     useEffect(() => {
         randList()
     }, [])
@@ -116,103 +114,32 @@ const Quiz = (props) => {
             else {
                 completed.push(random)
                 question.current.textContent = list_of_questions[random].question
-                switch (random) {
-                    case 0:
-                        bg.current.style.background = `url(${QuizOrangeBg})`
-                        bg.current.style.backgroundSize = 'cover'
-                        a.current.textContent = list_of_questions[random].options.a
-                        b.current.textContent = list_of_questions[random].options.b
-                        c.current.textContent = list_of_questions[random].options.c
-                        d.current.textContent = list_of_questions[random].options.d
 
-                        break;
-                    case 1:
-                        bg.current.style.background = `url(${QuizGreenBg})`
-                        bg.current.style.backgroundSize = 'cover'
-                        a.current.textContent = list_of_questions[random].options.a
-                        b.current.textContent = list_of_questions[random].options.b
-                        c.current.textContent = list_of_questions[random].options.c
-                        d.current.textContent = list_of_questions[random].options.d
-
-                        break;
-                    case 2:
-                        bg.current.style.background = `url(${QuizOrangeBg})`
-                        bg.current.style.backgroundSize = 'cover'
-                        a.current.textContent = list_of_questions[random].options.a
-                        b.current.textContent = list_of_questions[random].options.b
-                        c.current.textContent = list_of_questions[random].options.c
-                        d.current.textContent = list_of_questions[random].options.d
-
-                        break;
-                    case 3:
-                        bg.current.style.background = `url(${QuizGreenBg})`
-                        bg.current.style.backgroundSize = 'cover'
-                        a.current.textContent = list_of_questions[random].options.a
-                        b.current.textContent = list_of_questions[random].options.b
-                        c.current.textContent = list_of_questions[random].options.c
-                        d.current.textContent = list_of_questions[random].options.d
-
-                        break;
-                    case 4:
-                        bg.current.style.background = `url(${QuizOrangeBg})`
-                        bg.current.style.backgroundSize = 'cover'
-                        a.current.textContent = list_of_questions[random].options.a
-                        b.current.textContent = list_of_questions[random].options.b
-                        c.current.textContent = list_of_questions[random].options.c
-                        d.current.textContent = list_of_questions[random].options.d
-
-                        break;
-                  default:
-                    break;
-                }
+                bg.current.style.background = `url(${QuizOrangeBg})`
+                bg.current.style.backgroundSize = 'cover'
+                a.current.textContent = list_of_questions[random].options.a
+                b.current.textContent = list_of_questions[random].options.b
+                c.current.textContent = list_of_questions[random].options.c
+                d.current.textContent = list_of_questions[random].options.d
             }
         }
     }
-
-
-
 
     const selected_answer = (selected_data) => {
         gsap.to(`.${selected_data}`, {backgroundColor: '#40473F', duration: 0.5})
         let index = completed[completed.length -1]
         let answer = list_of_questions[index].answer
-        switch(index){
-            case 0:
-                if(selected_data === answer){ c.current.textContent = 'Correct'; points++;  console.log(`updated points: ${points}`)}
-                else{ eval(selected_data).current.textContent = 'Incorrect'; }
-                break;
 
-            case 1:
-                if(selected_data === answer){ a.current.textContent = 'Correct'; points++;  console.log(`updated points: ${points}`)}
-                else{ eval(selected_data).current.textContent = 'Incorrect';}
-
-                break;
-            case 2:
-                if(selected_data === answer){ d.current.textContent = 'Correct'; points++;  console.log(`updated points: ${points}`)}
-                else{ eval(selected_data).current.textContent = 'Incorrect'}
-
-                break;
-            case 3:
-                if(selected_data === answer){ b.current.textContent = 'Correct'; points++;  console.log(`updated points: ${points}`)}
-                else{ eval(selected_data).current.textContent = 'Incorrect'}
-
-                break;
-            case 4:
-                if(selected_data === answer){ c.current.textContent = 'Correct'; points++;  console.log(`updated points: ${points}`)}
-                else{ eval(selected_data).current.textContent = 'Incorrect'}
-                break;
-            default:
-              break;
+        if(selected_data === answer) {
+          // answer. in this context is referencing the consts "a" "b" "c" or "d"
+          answer.current.textContent = 'Correct'; points++;  console.log(`updated points: ${points}`)
+        } else {
+          eval(selected_data).current.textContent = 'Incorrect';
         }
-
-
-    setTimeout(()=>{
-        randList()
-    }, 1000)
-
-
+        setTimeout(()=>{
+            randList()
+        }, 1000)
     }
-
 
     return (
         <div className={'Prizing'} ref={bg}>
