@@ -182,7 +182,7 @@ const [settingProvince, setProvinceYear] = useState()
 
       <h1 style={{color: 'white', fontWeight: '100', fontSize: '2.2em', fontFamily: 'Fjalla One, sans-serif'}}>PLEASE VERIFY YOUR AGE </h1>
       <div id='dob_capture'>
-        <div className='select_container marg_10' onClick={(e)=>{ set_sidebar_dates('day', days)}}>
+        <div className='select_container' onClick={(e)=>{ set_sidebar_dates('day', days)}}>
           <div className='box'>
             <div className='input-label'>
               { settingDay ?? "DAY" }

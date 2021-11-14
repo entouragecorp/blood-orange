@@ -10,13 +10,13 @@ const Datacapture = (props) => {
   let points = localStorage.getItem('points')
   const history = useHistory()
 
-  // Push the contents of the the form to localstorage. 
+  // Push the contents of the the form to localstorage.
 
   const on_submit = (e) => {
     e.preventDefault()
     // history.push('/blood-orange')
     const user_metadata = JSON.parse(localStorage.getItem('users_metadata'))
- 
+
     // console.log(`Fullname: ${e.target.fullname.value} | Email: ${e.target.email.value} | Company: ${e.target.store.value}`)
       var users_data = {
       'fullname': `${e.target.fullname.value}`,
@@ -39,14 +39,14 @@ const Datacapture = (props) => {
       if(parseInt(status) === 200){
         history.push('/ThanksForEntry')
       }
-      
+
     })
   }
 
   return (
     <div className='Prizing'>
 
-      <div id='quiz_holder_'>
+      <div id='quiz_result_holder_'>
         <div id='contact_header_comment_holder'>
           <h2>{`CONGRATULATIONS! YOU GOT ${points}/5 ANSWERS CORRECT!`}</h2>
           <h4>Please leave us your contact info for your <strong>CHANCE TO WIN</strong> your very own Saturday Roomba!</h4>
@@ -86,7 +86,7 @@ const Datacapture = (props) => {
         <input type='submit' id='submit_btn' value='SUBMIT'></input>
         <p className='legal_content'>By entering, I consent to receive emails and direct mails regarding newsletters, announcements, updates, promotions in accordance with the Saturday Cannabis and <a id='link_' href='https://entouragehealthcorp.com/privacy-policy'>Entourage Health Corp Privacy Policy</a>. I understand that my personal information will never be shared or distributed, and will not be used for purposes other than stated as part of the Saturday Cannabis Quiz.</p>
       </form>
- 
+
     </div>
   )
 

@@ -29,13 +29,14 @@ $orange: #D9442A;
         left: 0;
         width: 100%;
         padding-top: 50px;
-#next_btn_landing{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: -140px;
-    width: 100vw;
-}
+
+        #next_btn_landing{
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            bottom: -140px;
+            width: 100vw;
+        }
         .select_container{
             width: fit-content;
             height: fit-content;
@@ -49,7 +50,6 @@ $orange: #D9442A;
             display: flex;
             display: -webkit-flex;
             justify-content: flex-end;
-            padding-right: 2px;
             .blackBox{
                 margin-top: 1px;
                 margin-right: 1px;
@@ -108,7 +108,7 @@ $orange: #D9442A;
 
 .bloodOrangeBg{
     background: url('./../Assets/new-bg.jpg') no-repeat center center !important;
-    background-size: cover !important;
+    background-size: 100% 100% !important;
 }
 
 .Prizing{
@@ -125,58 +125,59 @@ $orange: #D9442A;
         top: 0;
         margin: 23vh 0px 0px 6vw;
     }
-.blood_orange_h1{
-    color: white;
-    margin-bottom: 5px;
-    font-weight: 500;
+    .blood_orange_h1{
+        color: white;
+        margin-bottom: 5px;
+        font-weight: 500;
 
-}
-.Title2{
-    margin-top: -2vh;
-}
-.ROR{
-    margin-top: -1vh;
-}
-#next_btn_green{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 12%;
-}
-.columns_holder{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-}
-.shared_width{
-    color: white;
-    width: calc(100% / 2);
-    display: flex;
-    flex-direction: column;
-   align-items: flex-end;
-   padding-left: 6%;
-   z-index: 99;
-
-    .thin{
-        font-weight: 200;
-        font-family: 'Oswald', sans-serif;
     }
-    .info_container{
-        width: 150px;
-        margin-top: 20px;
+    .Title2{
+        margin-top: -2vh;
     }
-}
-.left-content{
-    padding-left: 6vw;
-    padding-top: 10vh;
-    margin-top: 4vh;
-    width: 41vw;
-}
-.margin_zero{
-    margin: 0px;
+    .ROR{
+        margin-top: -1vh;
+    }
+    #next_btn_green{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 12%;
+    }
+    .columns_holder{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 16vh;
+    }
+    .shared_width{
+        color: white;
+        width: calc(100% / 2);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-left: 6%;
+        z-index: 99;
 
-}
+        .thin{
+            font-weight: 200;
+            font-family: 'Oswald', sans-serif;
+        }
+        .info_container{
+            width: 150px;
+            margin-top: 20px;
+        }
+    }
+    .left-content{
+        padding-left: 6vw;
+        // padding-top: 10vh;
+        // margin-top: 4vh;
+        width: 41vw;
+    }
+    .margin_zero{
+        margin: 0px;
+
+    }
 }
 
 #answer_list{
@@ -215,13 +216,13 @@ width: 100%;
     padding: 0 16px;
 }
 #quiz_holder{
-    margin-top: 18vh;
+    margin-top: 22vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#quiz_holder_{
+#quiz_result_holder_{
     margin-top: 25vh;
     width: 100%;
     display: flex;
@@ -281,14 +282,16 @@ label{
 }
 }
 
-#vapePen{
-    width: 39%;
-    position: absolute;
-    z-index: 0;
-    right: 20px;
-    top: 100px;
-
+.vape_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  #vapePen{
+    max-width: 150px;
+  }
 }
+
 #sourBag{
     position: absolute;
     left: 0;
@@ -415,8 +418,6 @@ label{
     }
     .left-content{
         padding-left: 6vw;
-        padding-top: 10vh;
-        margin-top: 1vh !important;
         width: 34%;
     }
 }
@@ -466,17 +467,17 @@ label{
 
 
 .Roomba_page{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 
-//  ROomba
-.roomba-bg{
+  //  ROomba
+  .roomba-bg{
     position: absolute;
     z-index: 0;
     height: 100vh;
     width: 100vw;
-}
-.roomba_header_text{
+  }
+  .roomba_header_text{
     width: 90%;
     position: absolute;
     font-weight: 100;
@@ -484,16 +485,17 @@ justify-content: center;
     color: white;
     margin-top: 20vh;
     text-align: center;
+  }
 }
-}
+
 #next_btn_{
-    width: 100vw;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 19vh;
-    z-index: 99;
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 19vh;
+  z-index: 99;
 }
 #next_btn_roomba{
     width: 100vw;
@@ -564,18 +566,6 @@ justify-content: center;
     margin-top: 10px;
 }
 
-// @media (max-height: 740px){
-//     .next_btn_blood_orange{
-//         width: 100vw;
-//         height: auto;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         position: absolute;
-//         margin-top: 5vh;
-//         z-index: 99;
-//     }
-// }
 @media (min-height: 740px){ .sidebar{
     text-align: center;
     ul{
@@ -623,7 +613,7 @@ justify-content: center;
         justify-content: center;
         align-items: center;
         position: absolute;
-        margin-top: 5vh;
+        margin-top: 8vh;
         z-index: 99;
     }
 }
