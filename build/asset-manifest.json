@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/blood-orange/static/css/main.d76f7b62.chunk.css",
-    "main.js": "/blood-orange/static/js/main.79da6c43.chunk.js",
-    "main.js.map": "/blood-orange/static/js/main.79da6c43.chunk.js.map",
+    "main.css": "/blood-orange/static/css/main.e1a6577a.chunk.css",
+    "main.js": "/blood-orange/static/js/main.891d4a3d.chunk.js",
+    "main.js.map": "/blood-orange/static/js/main.891d4a3d.chunk.js.map",
     "runtime-main.js": "/blood-orange/static/js/runtime-main.339aafb8.js",
     "runtime-main.js.map": "/blood-orange/static/js/runtime-main.339aafb8.js.map",
     "static/js/2.510dc544.chunk.js": "/blood-orange/static/js/2.510dc544.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e9006f7c.chunk.js": "/blood-orange/static/js/3.e9006f7c.chunk.js",
     "static/js/3.e9006f7c.chunk.js.map": "/blood-orange/static/js/3.e9006f7c.chunk.js.map",
     "index.html": "/blood-orange/index.html",
-    "static/css/main.d76f7b62.chunk.css.map": "/blood-orange/static/css/main.d76f7b62.chunk.css.map",
+    "static/css/main.e1a6577a.chunk.css.map": "/blood-orange/static/css/main.e1a6577a.chunk.css.map",
     "static/js/2.510dc544.chunk.js.LICENSE.txt": "/blood-orange/static/js/2.510dc544.chunk.js.LICENSE.txt",
     "static/media/Saturday.1909c810.mp4": "/blood-orange/static/media/Saturday.1909c810.mp4",
     "static/media/Pages.scss": "/blood-orange/static/media/prizingBg.87f69a67.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.339aafb8.js",
     "static/js/2.510dc544.chunk.js",
-    "static/css/main.d76f7b62.chunk.css",
-    "static/js/main.79da6c43.chunk.js"
+    "static/css/main.e1a6577a.chunk.css",
+    "static/js/main.891d4a3d.chunk.js"
   ]
 }
