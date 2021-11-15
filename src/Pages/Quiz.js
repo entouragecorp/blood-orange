@@ -31,6 +31,7 @@ const Quiz = (props) => {
     const showB = useRef()
     const showC = useRef()
     const showD = useRef()
+    const keyMap = ['a', 'b', 'c', 'd']
     const questionaire_limit = 5
     // const list_of_questions = ['1. Saturday 1G Blood Orange', '2. Saturday Blood Orange is priced perfectly for which on-the-go shopper?', "3. When speaking about the 1G Blood Orange product, I'd start with:", "4. Orange flavour can be difficult to nail, but Saturday's Blood Orange has done so beautifully because:", '5. I’d Recommend Saturday Blood Orange to a shopper in a situation where:']
     const list_of_questions = [
@@ -123,14 +124,14 @@ const Quiz = (props) => {
           bg.current.style.background = list_of_questions[random].bg
           bg.current.style.backgroundSize = '100% 100%'
 
-          for (const key in list_of_questions[random].options) {
+          keyMap.forEach(key => {
             if (list_of_questions[random].options[key]) {
               eval(key).current.textContent = list_of_questions[random].options[key]
               eval(`show${key.toUpperCase()}`).current.className = `green_bg ${key}`
             } else {
               eval(`show${key.toUpperCase()}`).current.className = 'displayNone'
             }
-          }
+          })
         }
       }
     }
