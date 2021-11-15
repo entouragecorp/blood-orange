@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/blood-orange/static/css/main.9dcd3f90.chunk.css",
-    "main.js": "/blood-orange/static/js/main.db2fcf3c.chunk.js",
-    "main.js.map": "/blood-orange/static/js/main.db2fcf3c.chunk.js.map",
-    "runtime-main.js": "/blood-orange/static/js/runtime-main.1c4be04c.js",
-    "runtime-main.js.map": "/blood-orange/static/js/runtime-main.1c4be04c.js.map",
-    "static/js/2.f490e240.chunk.js": "/blood-orange/static/js/2.f490e240.chunk.js",
-    "static/js/2.f490e240.chunk.js.map": "/blood-orange/static/js/2.f490e240.chunk.js.map",
-    "static/js/3.5cade456.chunk.js": "/blood-orange/static/js/3.5cade456.chunk.js",
-    "static/js/3.5cade456.chunk.js.map": "/blood-orange/static/js/3.5cade456.chunk.js.map",
+    "main.css": "/blood-orange/static/css/main.d76f7b62.chunk.css",
+    "main.js": "/blood-orange/static/js/main.79da6c43.chunk.js",
+    "main.js.map": "/blood-orange/static/js/main.79da6c43.chunk.js.map",
+    "runtime-main.js": "/blood-orange/static/js/runtime-main.339aafb8.js",
+    "runtime-main.js.map": "/blood-orange/static/js/runtime-main.339aafb8.js.map",
+    "static/js/2.510dc544.chunk.js": "/blood-orange/static/js/2.510dc544.chunk.js",
+    "static/js/2.510dc544.chunk.js.map": "/blood-orange/static/js/2.510dc544.chunk.js.map",
+    "static/js/3.e9006f7c.chunk.js": "/blood-orange/static/js/3.e9006f7c.chunk.js",
+    "static/js/3.e9006f7c.chunk.js.map": "/blood-orange/static/js/3.e9006f7c.chunk.js.map",
     "index.html": "/blood-orange/index.html",
-    "static/css/main.9dcd3f90.chunk.css.map": "/blood-orange/static/css/main.9dcd3f90.chunk.css.map",
-    "static/js/2.f490e240.chunk.js.LICENSE.txt": "/blood-orange/static/js/2.f490e240.chunk.js.LICENSE.txt",
+    "static/css/main.d76f7b62.chunk.css.map": "/blood-orange/static/css/main.d76f7b62.chunk.css.map",
+    "static/js/2.510dc544.chunk.js.LICENSE.txt": "/blood-orange/static/js/2.510dc544.chunk.js.LICENSE.txt",
     "static/media/Saturday.1909c810.mp4": "/blood-orange/static/media/Saturday.1909c810.mp4",
     "static/media/Pages.scss": "/blood-orange/static/media/prizingBg.87f69a67.png",
     "static/media/green-quiz-bg.png": "/blood-orange/static/media/green-quiz-bg.a31143c5.png",
@@ -23,9 +23,9 @@
     "static/media/vape-pen.29429644.svg": "/blood-orange/static/media/vape-pen.29429644.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c4be04c.js",
-    "static/js/2.f490e240.chunk.js",
-    "static/css/main.9dcd3f90.chunk.css",
-    "static/js/main.db2fcf3c.chunk.js"
+    "static/js/runtime-main.339aafb8.js",
+    "static/js/2.510dc544.chunk.js",
+    "static/css/main.d76f7b62.chunk.css",
+    "static/js/main.79da6c43.chunk.js"
   ]
 }

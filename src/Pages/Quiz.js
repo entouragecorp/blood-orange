@@ -121,34 +121,15 @@ const Quiz = (props) => {
           completed.push(random)
           question.current.textContent = list_of_questions[random].question
           bg.current.style.background = list_of_questions[random].bg
-          bg.current.style.backgroundSize = 'cover'
+          bg.current.style.backgroundSize = '100% 100%'
 
-          if (list_of_questions[random].options['a']) {
-            a.current.textContent = list_of_questions[random].options['a']
-            showA.current.className = 'green_bg a'
-          } else {
-            showA.current.className = 'displayNone'
-          }
-
-          if (list_of_questions[random].options['b']) {
-            b.current.textContent = list_of_questions[random].options['b']
-            showB.current.className = 'green_bg b'
-          } else {
-            showB.current.className = 'displayNone'
-          }
-
-          if (list_of_questions[random].options['c']) {
-            c.current.textContent = list_of_questions[random].options['c']
-            showC.current.className = 'green_bg c'
-          } else {
-            showC.current.className = 'displayNone'
-          }
-
-          if (list_of_questions[random].options['d']) {
-            d.current.textContent = list_of_questions[random].options['d']
-            showD.current.className = 'green_bg d'
-          } else {
-            showD.current.className = 'displayNone'
+          for (const key in list_of_questions[random].options) {
+            if (list_of_questions[random].options[key]) {
+              eval(key).current.textContent = list_of_questions[random].options[key]
+              eval(`show${key.toUpperCase()}`).current.className = `green_bg ${key}`
+            } else {
+              eval(`show${key.toUpperCase()}`).current.className = 'displayNone'
+            }
           }
         }
       }

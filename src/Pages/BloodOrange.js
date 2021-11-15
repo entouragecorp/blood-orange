@@ -19,8 +19,7 @@ const BloodOrange = (props) => {
 
           <div className='shared_width'>
             <div className='info_container'>
-              <h1 className='blood_orange_h1'>BLOOD</h1>
-              <h1 className='blood_orange_h1 Title2'>ORANGE</h1>
+              <h1 className='blood_orange_h1'>BLOOD ORANGE</h1>
               <h5 className='blood_orange_h1 ROR'>1G 510 CARTRIDGE</h5>
             </div>
 
@@ -46,7 +45,7 @@ const BloodOrange = (props) => {
 
         </div>
 
-        <div>
+        <div class="vape_container">
           <img id='vapePen' src={VapePen} alt='' />
         </div>
 
